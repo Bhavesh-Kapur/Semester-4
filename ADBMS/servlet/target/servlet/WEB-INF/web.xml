@@ -1,0 +1,18 @@
+<web-app>
+	<display-name>My DB HTTP Servlet</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Demo</servlet-name>
+		<servlet-class>Demo</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Demo</servlet-name>
+		<url-pattern>/Demo</url-pattern>
+	</servlet-mapping>
+</web-app>
