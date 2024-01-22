@@ -1,4 +1,17 @@
-img{
-    margin-left: 200px;
+.logo{
+    margin-top: 25px;
+    width: 160px;
+    margin-left: 50px;
+}
 
+.link{
+    
+    margin-left: 600px;
+    margin-top: -50px;
+ 
+}
+
+
+.direct{
+    padding-left: 70px;
 }
