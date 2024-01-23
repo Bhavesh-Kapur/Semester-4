@@ -1,0 +1,18 @@
+p{
+    font-size: 22px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+
+.tut{
+    width: 200px;
+    height: 200px;
+
+}
+
+.img1{
+    display: inline;
+    padding: 30px;
+}
