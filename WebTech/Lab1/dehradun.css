@@ -1,0 +1,51 @@
+h1{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+.about_ddn{
+    text-align: center;
+    font-size: 22px;
+    padding: 60px;
+}
+.container {
+    position:relative;
+    text-align: center;
+    color: white;
+  }
+
+.h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cont1{
+    display:inline-block ;
+    padding: 100px;
+}
+
+h4{
+    text-align: center;
+    font-size: 28px;
+    margin-top: -50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 20px;
+  }
+
+.count1_txt{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+a{
+    color: black;
+}
