@@ -29,3 +29,7 @@ table{
 h1,h3{
     text-align: center;
 }
+
+body{
+    font-size: 18px;
+}
