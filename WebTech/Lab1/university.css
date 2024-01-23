@@ -1,16 +1,30 @@
-.logo{
-    margin-top: 25px;
-    width: 160px;
-    margin-left: 50px;
+.limg {
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    /* padding-right: 200px;     */
+    object-fit: cover;
+  }
+
+.container{
+    display: flex;
+    text-align: center;
+  }
+
+  .txt{
+    width: 100%;
+    padding: 32px;
+    font-size: 38px;
+
+  }
+
+.about{
+    position:relative;
+    text-align: center;
+    color: white;
 }
 
-.link{
-    
-    margin-left: 600px;
-    margin-top: -50px;
-}
-
-
-.direct{
-    padding-left: 70px;
+p{
+    font-size: 18px;
+    padding: 50px;
 }
