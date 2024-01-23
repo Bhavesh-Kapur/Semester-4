@@ -1,0 +1,31 @@
+.days{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.time{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+table{
+    border: 2px black solid;
+}
+
+
+.timetable{
+
+    margin: 180px;
+
+}
+
+h1,h3{
+    text-align: center;
+}
