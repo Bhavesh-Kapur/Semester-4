@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+   font-size: 28px;
+}
+
+.form{
+    text-align: center;
+
+}
+
+.in{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+*{
+    font-size: 18px;
+}
+
+.container{
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
