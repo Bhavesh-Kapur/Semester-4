@@ -7,19 +7,33 @@
     <link rel="stylesheet" href="studentreg.css">
 </head>
 <body>
+    
     <div class="container">
+        <div class="bx">
         <h1 class="title">Student Registeration Form</h1>
         <div class="form">
             <h4 class="about">Basic Information</h4>
+            <div class="in">
             <form action="" method="get">
-                <div class="in">
+                <div class="name">
                     Name: <input type="text" class="name"><br>
                 </div>
-                <div class="in">Age: <input type="number" class="age" min="5" max="20"></div><br>
-                <div class="in"></div>
-
+                <div class="name">Age: <input type="number" class="age" min="5" max="20"></div><br>
+                <div class="name">Date of Birth: <input type="date" class="dob"></div><br>
+               <div class="name">
+                <label for="course">Choose a Course:</label>
+        <select name="course" id="course" value="Select an option ">
+            <option value="CS">CS</option>
+            <option value="B.Des">B.Des</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BCA">BCA</option>
+        </select>
+               </div>
+               <div class="submit"><input type="submit" name="submit" class="submit" value="Submit"></div>
             </form>
         </div>
+        </div>
     </div>
+</div>
 </body>
 </html>

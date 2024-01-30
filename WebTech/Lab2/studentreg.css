@@ -1,15 +1,30 @@
-*{
+.bx{
+    border: 7px groove #E0CCBE;
+    background-color: #EEEDEB;
+    box-shadow: 3px 3px grey, -0.5em 0 2.2em grey;
+    padding: 50px;
     text-align: center;
 }
 
-.about{
-    font-size: 25px;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
+
+body{
+    background-color: #3C3633;
+
+}
+
 
 .in{
-    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+
 .age{
-    padding: 15px;
+    padding-top: px;
 }
