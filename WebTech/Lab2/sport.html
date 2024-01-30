@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Registeration Form</title>
+    <link rel="stylesheet" href="sports.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="title">UPES Sports Registeration Form</h2>
+            <form action="/" method="post" >
+                <div class="in" id="name">Name:
+                    <input type="text" class="iname"> 
+                </div>
+                <div class="in" id="age">Age:
+                    <input type="number" class="iage">
+                </div>
+                <div class="in" id="gender">
+                    <label for="gender" class="igender">Gender:</label>
+                    <select name="gender" id="igender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="address">Address:
+                    <textarea name="address" id="add" cols="25" rows="3"></textarea>
+                </div>
+
+                <div class="in" id="sport">
+                    <label for="sport" class="isport">Select any one: </label>
+                    <select name="sport" id="isport">
+                        <option value="badminton">Badminton</option>
+                        <option value="cricket">Cricket</option>
+                        <option value="football">Football</option>
+                        <option value="vollyball">Vollyball</option>
+                        <option value="chess">Chess</option>
+                        <option value="table tennis">Table Tennis</option>
+                        <option value="lawn tennis">Lawn Tennis</option>
+                    </select>
+                </div>
+                <div class="in" id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

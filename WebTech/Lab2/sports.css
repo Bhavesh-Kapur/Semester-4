@@ -1,0 +1,63 @@
+.box{
+    border: 10px groove #365486;
+    text-align: center;
+    padding: 50px;
+    background-color: #DCF2F1;
+    box-shadow: 3px 3px #DCF2F1, -0.5em 0 2.0em #DCF2F1;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+
+
+.in{
+    padding: 17px;
+}
+
+
+form{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iname,.iage{
+    height: 25px;
+}
+
+
+#age{
+    margin-left: 23px;
+}
+
+/* .iage{
+    margin-left: 12px;
+} */
+
+.igender{
+    margin-left: -65px;
+    margin-right: 30px;
+}
+
+#igender{
+    width: 140px;
+    height: 30px;
+}
+
+
+input,select,textarea{
+    font-size: 20px;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+
+body{
+    background-color: #365486;
+    color: #0F1035;
+}
