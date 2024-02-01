@@ -1,0 +1,56 @@
+.logo{
+    width: 140xp;
+    height: 140px;
+    padding-left: 50px;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+
+.heading{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 15vh;
+    margin-left: 60vh;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    padding: 100px;
+    border: 2px solid black;
+}
+
+
+.item{
+ 
+        padding: 50px;
+        background-color: grey;
+        transition: transform 1.3s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      
+}
+.item:hover{
+    transform: scale(1.2);
+}
+
+
+.footer{
+
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        margin-top: 499px;
+      }
