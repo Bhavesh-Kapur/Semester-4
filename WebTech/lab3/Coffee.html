@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animations</title>
     <link rel="stylesheet" href="coffee.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
+        
         <div class="head">
-        <img src="img/download.jpg" class="logo" alt="">
-        <h1 class="heading">Coffee Shoppy</h1>
+        <img src="img/McCafe-logo.jpg" class="logo" alt="">     
+        <h3 class="mnav">Our Menu</h3>     <!-- can be made into link use an href tag -->
+        <h3 class="cnav">Our Cafe</h3>       <!-- can be made into link use an href tag -->
+        <div class="scontainer">
+        <input type="text" class="snav" name="search" placeholder="Search...">
+        <button class="ri-search-line" type="button" onclick="alert('Test Search done')"></button>
+    </div>
+    <h3 class="bnav">My Basket</h3>
+    <i class="ri-align-justify"></i>
     </div>
 
     <div class="menu">
@@ -22,10 +37,7 @@
         <div class="item"><div class="mocha">Iced Mocha</div>
         </div>
         <div class="item"><div class="classic">Classic Coffee</div></div>
-    </div>
-
-<footer><h5 class="footer">Copyright</h5></footer>
-        
+    </div>   
     </div>
 
 </body>

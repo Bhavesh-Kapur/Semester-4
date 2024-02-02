@@ -1,28 +1,72 @@
+body{
+    background-image: url("img/Mc\ Café\ \(1\).png");
+    background-size: cover;
+}
+
 .logo{
-    width: 140xp;
-    height: 140px;
-    padding-left: 50px;
+    width: 90xp;
+    height: 90px;
+    padding-left: 80px;
+    padding-top: 60px;
 }
 
 
 .head{
     display: flex;
-    align-items: center;
 }
 
 
-.heading{
-    text-align: center;
-    display: grid;
-    place-items: center;
-    height: 15vh;
-    margin-left: 60vh;
+.mnav{
+    padding: 70px;
+    padding-left: 110px;
+    font-family: 'Roboto', sans-serif;
 
+}
+
+.cnav{
+    padding: 70px;
+    margin-left: -60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.snav{
+    margin-top: -16px;
+    margin-left: 160px;
+    width: 480px;
+    background-color: white;
+    border: 0px ridge grey;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.ri-align-justify{
+    margin-top: 90px;
+    font-size: 23px;
+    margin-left: -50px;
+}
+
+.bnav{
+    font-family: 'Roboto', sans-serif;
+    padding: 70px;
+    margin-left: 280px;
+}
+
+.scontainer{
+    margin-top: 89px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ri-search-line{
+    margin-left: -39px;
+    background-color: white;
+    border: 0px hidden white;
 }
 
 .menu{
     display: flex;
     justify-content: space-around;
+    margin-top: 340px;
 }
 
 .item{
@@ -54,3 +98,5 @@
         color: white;
         margin-top: 499px;
       }
+
+
