@@ -71,24 +71,57 @@ body{
 
 .item{
     padding: 100px;
-    border: 2px solid black;
+    border: 1px solid grey;
+    border-radius: 30px;
 }
+
 
 
 .item{
  
         padding: 50px;
-        background-color: grey;
+        background-color: #F5F5F5;
         transition: transform 1.3s; /* Animation */
         width: 200px;
-        height: 200px;
+        height: 350px;
         margin: 0 auto;
+
       
 }
 .item:hover{
     transform: scale(1.2);
 }
 
+
+.icmimg{
+    width: 250px;
+    height: 250px;
+    margin-left: -20px;
+    margin-top: -150px;
+}
+
+.iclimg{
+    width: 150px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: -130px;
+}
+
+
+.iccmimg{
+    width: 150px;
+    height: 220px;
+    margin-left: 15px;
+    margin-top: -120px;
+
+}
+
+.iccmmimg{
+    width: 150px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: -110px;
+}
 
 .footer{
 
