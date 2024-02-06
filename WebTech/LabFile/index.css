@@ -1,23 +1,23 @@
-/* .logo{
-    display: grid;
-    place-items: center;
-    padding-top: 60px;
+.logo{
+
 }
 
-
 .mlogo{
-    width: 550px;
-    height: 250px;
-} */
-
+    margin-left: 50rem;
+}
 .sidenav{
     position: absolute;
-    background-color: aqua;
+    background-color: #E3E1D9;
     width: 150px;
     padding-bottom:1000px;
-
+    padding-top: 50px;
 }
 
 .file{
     display: flex;
+    margin-right: 100%;
+}
+
+.dlab{
+    padding: 20px;
 }
