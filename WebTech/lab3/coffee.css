@@ -1,8 +1,12 @@
+
 body{
     background-image: url("img/Mc\ Café\ \(1\).png");
     background-size: cover;
 }
 
+.container{
+    width: 100%;
+}
 p{
     font-size: 14px;
 }

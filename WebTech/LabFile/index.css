@@ -1,0 +1,23 @@
+/* .logo{
+    display: grid;
+    place-items: center;
+    padding-top: 60px;
+}
+
+
+.mlogo{
+    width: 550px;
+    height: 250px;
+} */
+
+.sidenav{
+    position: absolute;
+    background-color: aqua;
+    width: 150px;
+    padding-bottom:1000px;
+
+}
+
+.file{
+    display: flex;
+}
