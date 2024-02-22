@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f() {
+            var x;
+            x=10;
+            s="asdasca";
+            s=new Date();
+            x=[12,45,56];
+            x=true;
+            // document.write(typeof(x));
+
+            const car ={type:"Fiat",model:"500",color:"white"};
+            alert("the type of the car is :"+car["type"]);
+            alert("the type of car"+car.model);
+
+            let person={
+                fname: "Ravi",
+                lname: "Kumar",
+                name:function() {
+                    return this.fname+this.lname;
+                }
+            };
+
+            alert(person.name());
+        }
+        document.write(typeof(x));
+    </script>
+</head>
+<body onload="f()">
+    
+</body>
+</html>
