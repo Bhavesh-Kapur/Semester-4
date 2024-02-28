@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interaction Functions</title>
+</head>
+
+<body>
+    <script>
+        let age = prompt("What is your age?", 18);
+
+
+        let conf = confirm("Are you sure you want to submit?");
+
+        if (conf) {
+            if (age >= 18) {
+                alert(`Congratulations!You are ${age}  and can apply for major pan`);
+            } else {
+                alert(`Sorry, you are ${age} years old and can't apply for it `);
+            }
+        } else {
+            alert('You have canceled the submission. Have a great day!');
+        }
+    </script>
+</body>
+
+</html>
