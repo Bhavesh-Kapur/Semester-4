@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Product Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+    <h1>Vendor Product Management</h1>
+
+    <!-- Vendor Login -->
+    <div v-if="!isLoggedIn">
+        <label for="vendorId">Vendor ID:</label>
+        <input type="text" v-model="vendorId" placeholder="Enter Vendor ID">
+        <button @click="login">Login</button>
+    </div>
+
+    <!-- Product Management -->
+    <div v-if="isLoggedIn">
+        <h2>Welcome, {{ vendorName }}!</h2>
+
+        <!-- Add Product Form -->
+        <div>
+            <h3>Add Product</h3>
+            <label for="productName">Product Name:</label>
+            <input type="text" v-model="productName">
+            <label for="productPrice">Product Price:</label>
+            <input type="number" v-model="productPrice">
+            <button @click="addProduct">Add Product</button>
+        </div>
+
+        <!-- List of Products -->
+        <div>
+            <h3>Your Products</h3>
+            <ul>
+                <li v-for="(product, index) in products" :key="index">
+                    {{ product.name }} - ${{ product.price }}
+                </li>
+            </ul>
+        </div>
+
+        <!-- Logout Button -->
+        <button @click="logout">Logout</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="app.js"></script>
+</body>
+</html>
+    
