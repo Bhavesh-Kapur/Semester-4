@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="style2.css">
+
+<body>
+
+<div ng-app="myApp" ng-controller="personCtrl">
+    <p>Enter filter value:<input type="text"ng-model="name"></p>
+    <ol>
+        <li ng-repeat="x in names | filter:name">
+        {{x}}
+    </li>
+    </ol>
+</div>
+<script>
+    angular.module('myApp',[]).controller('personCtrl',function($scope)
+    {
+        $scope.names=[
+        'Bhavesh',
+        'Aryan',
+        'Kashish',
+        'SONALI',
+        'LAVANYA',
+        'KASHISH',
+        'SWARA',
+        'VIBHAV',
+        'KRATAGYA',
+        'BHAVESH',
+        'SAMAR',
+        'SUJAL',
+        'KAVYA',
+        'DHRUV'];
+    });
+</script>
+
+</body>
+</html>

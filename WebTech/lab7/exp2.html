@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost calulator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <style>
+        .container{
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class= 'container' ng-app="">
+        <p>Enter the quantity: <input type="number" ng-model="qty"></p>
+        <p>Enter the price: <input type="number" ng-model="price"></p>
+        <p>The total amt is : {{qty*price}}</p>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJs Tables</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="codingNinjaApp" ng-controller="angularController">
+        <table>
+            <thead>
+                <tr>
+                    <th ng-click="sortBy('name')">Name</th>
+                    <th ng-click="sortBy('age')">Age</th>
+                    <th ng-click="sortBy('location')">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees | orderBy:sortColumn:reverse">
+                    <td>{{employee.name}}</td>
+                    <td>{{employee.age}}</td>
+                    <td>{{employee.location}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        var app = angular.module("codingNinjaApp", []);
+        app.controller("angularController", function ($scope) {
+            $scope.employees = [
+                { name: "Ramya Kapoor", age: 10, location: 'Nagpur' },
+                { name: "Rehana Suri", age: 30, location: 'Chennai' },
+                { name: "Geetha Iyer", age: 29, location: 'Chennai' },
+                { name: "Shiva Kumar", age: 24, location: 'Bangalore' },
+                { name: "Mahesh Patel", age: 27, location: 'Bangalore' }
+            ];
+
+            $scope.sortColumn = ''; 
+            $scope.reverse = false; 
+
+            $scope.sortBy = function(column) {
+                if ($scope.sortColumn === column) {
+                    $scope.reverse = !$scope.reverse;
+                } else {
+                    $scope.sortColumn = column;
+                    $scope.reverse = false;
+                }
+            };
+        });
+    </script>
+</body>
+</html>

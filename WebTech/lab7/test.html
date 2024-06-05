@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body >
+    <div ng-app="">
+        <p>Enter the color name </p>
+        <p> <input type="text" placeholder="enter color name" ng-model="color"> </p>
+        <h2> This is the color {{color}}</h2>
+        <div class="box" style="background-color: {{color}};">
+        </div>
+    </div>
+    
+</body>
+</html>
